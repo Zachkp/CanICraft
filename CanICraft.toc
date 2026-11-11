@@ -1,0 +1,11 @@
+## Interface: 16001, 16002
+## Title: Can I Craft?
+## Notes: Shows which recipes you could craft if you bought the vendor reagents (Salt, Thread, Dye...) or crafted the intermediate parts (Cured Hides...) first.
+## Author: Zach
+## Version: 1.0.0
+## SavedVariables: CanICraftDB
+## IconTexture: Interface\Icons\INV_Misc_LeatherScrap_08
+
+Data.lua
+Core.lua
+UI.lua
