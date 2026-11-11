@@ -6,15 +6,19 @@ When you open a profession window, each recipe gets a `[n]` count. That number i
 
 ## Installation
 
-1. Click the green **Code** button on this page and choose **Download ZIP**.
-2. Unzip it. Inside the `CanICraft-main` folder there's a folder named **`CanICraft`**.
-3. Copy that `CanICraft` folder into your WoW AddOns folder:
+### Easiest way: download the release
+
+1. Go to the [latest release](https://github.com/Zachkp/CanICraft/releases/latest) and download **CanICraft-x.y.z.zip**. Don't use the "Source code" zip.
+2. Unzip it straight into your WoW AddOns folder:
    ```
    <WoW install folder>/Interface/AddOns/
    ```
    You should end up with `Interface/AddOns/CanICraft/CanICraft.toc`.
-   Don't copy the outer `CanICraft-main` folder: WoW won't load the addon that way.
-4. Restart WoW, or type `/reload` if you're already in game. Check that **Can I Craft?** is turned on in the AddOns list on the character select screen.
+3. Restart WoW, or type `/reload` if you're already in game. Check that **Can I Craft?** is turned on in the AddOns list on the character select screen.
+
+### From the repo
+
+If you use **Code → Download ZIP** instead, the zip has an extra `CanICraft-main` folder. Copy only the inner `CanICraft` folder into `Interface/AddOns/`.
 
 ## How it works
 
